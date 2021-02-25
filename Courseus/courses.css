@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+background-image: url('file:///C:/Users/Lenovo/Downloads/michael-d-beckwith-RGu5TzwrJ4Y-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dv1{
+	margin-top: 150px;
+	width: 100%;
+	height: 460px;
+	background-color: rgba(0,0,0,0.8);
+	display: inline-flex;
+}
+
+.dv{
+	
+	margin-left: 30px;
+	margin-right: 20px;
+	margin-top: 70px;
+	height: 46vh;
+	background-color:#ffc048;
+}
+img{
+	padding-left: 32px;
+	
+}
+.dv h3{
+	
+	font-family: 'Ranchers';
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	color: #130f40;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.dv a{
+	text-decoration: none;
+	transition: 0.5s ease;
+}
+.dv a:hover{
+	font-size: x-large;
+
+}
+h3 {
+  color: #fff;
+  font-size: 19px;
+  font-family: "ubuntu";
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  background: linear-gradient(to right, #ffa801 10%, #808e9b 50%, #130f40 60%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 150% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 1.5s linear infinite;
+  display: inline-block;
+
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
